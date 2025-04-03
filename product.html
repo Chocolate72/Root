@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse our collection of vintage pocket watches and timepieces">
+    <meta name="keywords" content="vintage watches, pocket watches, antique timepieces, classic watches">
+    <title>Products - Classic Timepieces</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main>
+        <section class="products-hero">
+            <div class="products-hero-content">
+                <h1>Our Collection</h1>
+                <p>Discover timeless elegance in our carefully curated selection</p>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="era">Era</label>
+                    <select id="era" class="filter-select">
+                        <option value="all">All Eras</option>
+                        <option value="victorian">Victorian (1837-1901)</option>
+                        <option value="edwardian">Edwardian (1901-1910)</option>
+                        <option value="art-deco">Art Deco (1920-1939)</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="price">Price Range</label>
+                    <select id="price" class="filter-select">
+                        <option value="all">All Prices</option>
+                        <option value="under-500">Under $500</option>
+                        <option value="500-1000">$500 - $1,000</option>
+                        <option value="over-1000">Over $1,000</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <article class="product-card" data-era="victorian" data-price="over-1000">
+                    <img src="images/product/Pocket-watches/Pocket watch - 1.jpg" alt="Victorian Gold Pocket Watch" loading="lazy">
+                    <div class="product-info">
+                        <h3>Victorian Gold Pocket Watch</h3>
+                        <p>Exquisite 18k gold case with hand-engraved details, circa 1880.</p>
+                        <span class="price">$1,250</span>
+                        <button class="secondary-button">View Details</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-era="edwardian" data-price="500-1000">
+                    <img src="images/product/Pocket-watches/Pocket watch - 2.jpg" alt="Edwardian Silver Watch" loading="lazy">
+                    <div class="product-info">
+                        <h3>Edwardian Silver Watch</h3>
+                        <p>Sterling silver case with original movement, circa 1905.</p>
+                        <span class="price">$850</span>
+                        <button class="secondary-button">View Details</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-era="art-deco" data-price="under-500">
+                    <img src="images/product/Pocket-watches/pocket watch (1).jpg" alt="Art Deco Watch" loading="lazy">
+                    <div class="product-info">
+                        <h3>Art Deco Chronograph</h3>
+                        <p>Chrome-plated case with geometric design, circa 1925.</p>
+                        <span class="price">$450</span>
+                        <button class="secondary-button">View Details</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-era="victorian" data-price="over-1000">
+                    <img src="images/product/Pocket-watches/Pocket watch - 4.jpg" alt="Victorian Engraved Watch" loading="lazy">
+                    <div class="product-info">
+                        <h3>Victorian Engraved Watch</h3>
+                        <p>Beautifully engraved silver case with Roman numerals, circa 1875.</p>
+                        <span class="price">$1,450</span>
+                        <button class="secondary-button">View Details</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-era="edwardian" data-price="500-1000">
+                    <img src="images/product/Pocket-watches/pocket watch (3).webp" alt="Edwardian Gold Watch" loading="lazy">
+                    <div class="product-info">
+                        <h3>Edwardian Gold Watch</h3>
+                        <p>14k gold case with intricate floral design, circa 1910.</p>
+                        <span class="price">$950</span>
+                        <button class="secondary-button">View Details</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-era="art-deco" data-price="under-500">
+                    <img src="images/product/Pocket-watches/pocket watch -3.webp" alt="Art Deco Silver Watch" loading="lazy">
+                    <div class="product-info">
+                        <h3>Art Deco Silver Watch</h3>
+                        <p>Sterling silver case with geometric patterns, circa 1930.</p>
+                        <span class="price">$475</span>
+                        <button class="secondary-button">View Details</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
