@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="footer-section">
                 <h3>Contact</h3>
-                <p>123 Vintage Lane<br>London, UK<br>Email: info@classictimepieces.com</p>
+                <p>123 Vintage Lane<br>London, Canada<br>Email: info@classictimepieces.com</p>
             </div>
             <div class="footer-section">
                 <h3>Follow Us</h3>
